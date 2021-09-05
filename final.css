@@ -1,0 +1,330 @@
+
+
+/*class text align*/
+.foot-cont,
+.heading-class,
+.introduction-class {
+  text-align: center;
+}
+
+.header-class {
+  padding: 5em 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 1em #080808;
+}
+
+body {
+  /*declaring the Fonts and colors*/
+  color: #292929;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.introduction-class {
+    /* for the layout */
+    margin-bottom: 0.1em;
+    /* font types */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 7em;
+}
+.previous {
+  background-color: #04AA6D;
+  color: black;
+}
+.heading-class {
+    /* for layout */
+    color: #e7d530da;
+    margin-top: -0.2em;
+    /* for typography */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    
+}
+
+
+
+
+
+
+
+
+.round {
+  border-radius: 50%;
+}
+
+.my-introduction,
+.my-location,
+.know-abt-me {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.my-introduction > p,
+.my-location > p,
+.know-abt-me,
+.foot-cont > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+a {
+  text-decoration: none;
+  
+  padding: 8px 16px;
+
+  display: inline-block;
+}
+
+.next {
+  background-color: #04AA6D;
+  text-align: center;
+  color: white;
+  
+}
+
+section > h1 {
+    margin-top: 2em;
+}
+
+.foot-cont,
+.heading-class,
+.introduction-class {
+  text-align: center;
+}
+
+.header-class {
+  padding: 6em 0;
+  border-top: solid 1em #face3e;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.introduction-class {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.heading-class {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.introduction > p,
+.location > p,
+.foot-cont > p {
+    /* decraling spaces and fonts */
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    
+}
+/*
+<!DOCTYPE html>
+<html>
+<head>
+    <a id="top"></a>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rama's Webpage-2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="final.css">
+
+    <style> 
+   .mypic {
+        width: 280px;
+        border-radius: 140px;
+        float: left;
+        margin-top: 60px;
+        margin-right: 40px;
+       }
+
+
+
+    </style>
+
+    </style>
+    
+</head>
+
+<body background="/HTML/images/light.jpg" style="background-repeat:no-repeat;background-size:200% 200% ;">
+    
+    <header class='header-class'>
+        <p class='introduction-class'>Here are some of my clicks! </p>
+
+  <img src="/HTML/images/picture1.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture2.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture3.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture4.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture5.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture6.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture7.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture8.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture9.jpg" idth="400" height="400" alt="Rama's pic1">
+  <img src="/HTML/images/picture10.jpg" idth="400" height="400" alt="Rama's pic1">
+  
+  
+  
+</body>
+
+ 
+<img class="mypic2">
+
+ 
+    
+</img>
+
+
+<a href="/HTML/test/final-page1.html" class="previous">&laquo; Go to Main page</a>
+</section>
+
+<footer class="foot-cont">
+    <p>you may reach me on these social networks : </p>
+    <ul class="socialnw">
+        <li><a class="CSS-SocialNW" href="https://github.com/kishorechinnam">GitHub</a></li>
+        <li><a class="CSS-SocialNW" href="https://twitter.com/kishore79544706">Twitter</a></li>
+        <li><a class="CSS-SocialNW" href="https://www.linkedin.com/in/kishore-chinnam-6479a8a6/">LinkedIN</a></li>
+        <a href="#top">Back to top</a>
+
+    </ul>
+  
+</footer>
+
+
+*/
+
+.know-abt-me > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /*margin  Layout */
+  margin: 2em 0 1em 0;
+}
+
+.my-introduction,
+.my-location,
+.know-abt-me {
+    max-width: 38em;
+    margin-left: 20;
+    margin-right: 20;
+    margin-top: 2em;
+    text-align: center;
+    background-color: #96dfe9;
+}
+.foot-cont {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #73A8C2;
+  text-decoration: none;
+}
+.socialnw > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.foot-cont > p {
+  color: #F7EDE1;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #F1C863;
+}
+  
+@media only screen and (max-width: 500px) {
+    .header-class {
+        padding: 3em 0;
+    }
+    .heading-class {
+        font-size: 3em;
+    }
+    .foot-cont {
+        padding: 2em 2.5em;
+  }
+
+  h2 {
+    /* declaring fontas */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    
+    font-weight: bold;
+    font-size: 1.2em;
+    }
+
+}
+
+/*<!DOCTYPE html>
+<html>
+<head>
+    <a id="top"></a>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rama's Webpage-1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="final.css">
+
+    <style> 
+     .mypic {
+        width: 280px;
+        border-radius: 140px;
+        float: left;
+        margin-top: 60px;
+        margin-right: 40px;
+       }
+
+    </style>
+</head>
+
+<body background="/HTML/images/pic3.jpg" style="background-repeat:no-repeat;background-size:100% 80% ;">
+    <img class="mypic" src="/HTML/images/pic1.jpg" alt="Rama's profile picture">
+    <header class='header-class'>
+  <p class='introduction-class'>Hi I'm</p>
+  <h1 class='heading-class'>Rama Kishore!</h1>
+</body>
+<section class="my-introduction">
+    <h1>Introduction</h1>
+    <p>I am an IT-Network Engineer since 6 years. Worked for Wireless&IT gaints like Qualcomm</p>
+    <p>I love the technology & would like to lexplore it rest of my life </p>
+    <h1>Where do i hail from </h1>
+    <p>I am from Konkuduru village, Andhra Pradesh , India . </p>
+    <h1>More info about me</h1>
+    <h2>What are your favorite hobbies?</h2>
+    <p>Mt favourite hobbies are exploring new Tech, Swimming , exploring new places & cooking </p>
+    <h2>What is your dream work profile </h2>
+    <p>My dream job is to become a director for an IT organisation</p>
+    <h2>which place do you live ?</h2>
+    <p>I currently live in Omaha, Nebraska </p>
+    <h2>Any specific reason you want to be a IT director ? </h2>
+    <p>Because, unlike manager's, directors generally would have chance to interact with both technology , strategy and people</p>
+          
+</section>
+
+<section>
+
+    <a href="/HTML/test/final-page2.html" target="_blank " class="next">Next &raquo;</a>
+</section>
+
+<footer class="foot-cont">
+    <p>you may reach me on these social networks : </p>
+    <ul class="socialnw">
+        <li><a class="CSS-SocialNW" href="https://github.com/kishorechinnam">GitHub</a></li>
+        <li><a class="CSS-SocialNW" href="https://twitter.com/kishore79544706">Twitter</a></li>
+        <li><a class="CSS-SocialNW" href="https://www.linkedin.com/in/kishore-chinnam-6479a8a6/">LinkedIN</a></li>
+        <a href="#top">Back to top</a>
+
+    </ul>
+  
+</footer> */

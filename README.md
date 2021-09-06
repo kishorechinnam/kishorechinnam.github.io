@@ -1,4 +1,4 @@
-# UNO-3900-ACTIVITY2
-NUID -20449362
+# 3900-ACTIVITY2
+
 
 This is my Web devolepment project activity 2 .
